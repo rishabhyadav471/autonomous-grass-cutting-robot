@@ -23,7 +23,7 @@ This project presents a prototype of an autonomous grass cutting robot capable o
 ## Project Stages
 1. Programming & Debugging
 2. Hardware Assembly & Testing
-3. Documentation & Inference
+3. Documentation
 
 ## Author
 Rishabh yadav
