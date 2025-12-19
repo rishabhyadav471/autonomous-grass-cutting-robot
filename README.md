@@ -1,29 +1,38 @@
-# Autonomous Grass Cutting Robot 🌱🤖
+# Autonomous Grass Cutting Robot 🤖🌱
 
 ## Project Overview
-This project presents a prototype of an autonomous grass cutting robot capable of navigating a lawn, detecting tall grass, and trimming it efficiently. The system minimizes manual effort and ensures uniform grass height.
+This project presents a prototype of an autonomous grass cutting robot designed to navigate a lawn, detect obstacles, and cut grass efficiently using a microcontroller-based system. The aim is to reduce manual effort and ensure uniform grass height.
 
 ## Objectives
-- Autonomous navigation
-- Obstacle detection and avoidance
-- Grass height detection
-- Automated cutting mechanism
+- Autonomous movement of the robot  
+- Obstacle detection using sensors  
+- Automatic grass cutting mechanism  
+- Embedded system implementation using Arduino  
+
+## System Components
+- Arduino UNO  
+- Ultrasonic Sensor (HC-SR04)  
+- DC Motors  
+- Motor Driver Module (L298N)  
+- Cutter Motor  
+- Battery Supply
+- 
+- ## Repository Structure
+- code/grass_cutter.ino → Arduino source code
+- simulation/simulation_screenshot.png → Simulation output
+- circuit/circuit_diagram.png → Circuit schematic
+- circuit/pin_connections.md → Pin configuration details
+- components/components_list.md → List of components used
+- results/results_analysis.md → Observed results and performance
+
+
+## Working Principle
+The ultrasonic sensor continuously measures the distance to obstacles. Based on sensor input, the Arduino controls the movement of the robot and activates the cutting motor when grass is detected within the defined range.
 
 ## Applications
-- Smart lawn maintenance
-- Industrial automation
-- Embedded systems learning
-
-## Technologies Used
-- Arduino UNO
-- Ultrasonic Sensor
-- DC Motors
-- Motor Driver (L298N)
-
-## Project Stages
-1. Programming & Debugging
-2. Hardware Assembly & Testing
-3. Documentation
+- Smart lawn maintenance  
+- Home and garden automation  
+- Embedded systems education  
 
 ## Author
-Rishabh yadav
+**Rishabh Yadav**
